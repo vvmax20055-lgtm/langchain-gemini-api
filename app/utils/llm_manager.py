@@ -1,7 +1,7 @@
 import logging
 from typing import AsyncIterable
 
-from langchain.schema.messages import HumanMessage, SystemMessage
+from langchain.core.messages import HumanMessage, SystemMessage
 from langchain.memory.chat_message_histories import RedisChatMessageHistory
 from langchain.memory import ConversationBufferWindowMemory
 from langchain_google_genai import ChatGoogleGenerativeAI
