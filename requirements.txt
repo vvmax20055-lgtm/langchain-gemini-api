@@ -3,6 +3,7 @@ uvicorn
 pillow
 python-dotenv
 redis
-langchain==0.0.354
+langchain
 langchain-google-genai
+langchain-community
 pydantic-settings
